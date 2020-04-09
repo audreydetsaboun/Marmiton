@@ -1,0 +1,21 @@
+font awesome
+recherche
+<i class="fas fa-search"></i>
+
+user
+<i class="far fa-user"></i>
+
+pinterest
+<i class="fab fa-pinterest"></i>
+
+facebook
+<i class="fab fa-facebook"></i>
+
+instagram
+<i class="fab fa-instagram-square"></i>
+
+youtube
+<i class="fab fa-youtube-square"></i>
+
+google assistant (google+)
+<i class="fab fa-google-plus"></i>
