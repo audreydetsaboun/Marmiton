@@ -8,7 +8,9 @@
 </head>
 
 <body>
+    <!--HEADER-->
     <header class="header">
+        <!--header 1e partie-->
         <div class="header__mmt">
             <div class="header__mmt--btn-menu btn-menu">
                 <div class="btn-menu__barres"></div>
@@ -27,6 +29,7 @@
                 <span class="connexion__texte">Connexion</span>
             </div>
         </div>
+        <!--header 2e partie nav-->
         <nav class="header__nav">
             <ul class="header__nav--liste nav">
                 <li class="nav__element selected">Aujourd'hui</li>
@@ -44,7 +47,10 @@
             </ul>
         </nav>
     </header>
+
+    <!--MAIN-->
     <main class="recherche">
+        <!--Recherche-->
         <section class="main__recherche">
             <h1 class="main__recherche--titre">Trouver une recette, une idée, une vidéo...</h1>
             <div class="main__recherche--searchbar searchbar__level1">
@@ -58,15 +64,67 @@
                 <span>Recherche ++</span>
             </div>
         </section>
-        <section class="main__recettes recettes">
-            <figure class="recettes__encart">
-                <img class="recette__encart--img" src="../images/salade.jpg" alt="2 assiettes de salade composée">
-                <figcaption class="recette__encart--legend">Salade de carottes croquantes, oranges, et pesto de fanes de
-                    carottes de Caleigh</figcaption>
-            </figure>
-            <span class="recette__encart--theme">Recette du jour</span>
+        <!--Contenu-->
+        <section class="main__recettes recette">
+            <article class="recette__encart">
+                <figure class="recette__encart--visuel">
+                    <img class="recette__encart--img" src="../images/salade.jpg" alt="2 assiettes de salade composée">
+                    <figcaption class="recette__encart--legend">Salade de carottes croquantes, oranges, et pesto de
+                        fanes de carottes de Caleigh</figcaption>
+                </figure>
+                <span class="recette__encart--theme">Recette du jour</span>
+            </article>
+            <!---->
+            <article class="recette__encart">
+                <figure class="recette__encart--visuel">
+                    <img class="recette__encart--img" src="../images/live-fb.jpg"
+                        alt="montage photo de plusieurs plats">
+                    <figcaption class="recette__encart--legend">Retrouvez les recettes de nos LIVE Facebook
+                        #ensembleencuisine du lundi au vendredi à 11h30</figcaption>
+                </figure>
+                <span class="recette__encart--theme hide"></span>
+            </article>
+            <!---->
+            <article class="recette__encart">
+                <figure class="recette__encart--visuel">
+                    <img class="recette__encart--img" src="../images/guide-cocottes.jpg"
+                        alt="une cocotte vue du dessus, couvercle à moitié ouvert avec des légumes dedans">
+                    <figcaption class="recette__encart--legend">Le guide complet des meilleures cocottes !</figcaption>
+                </figure>
+                <span class="recette__encart--theme">En ce moment</span>
+            </article>
+            <!---->
+            <article class="recette__encart">
+                <figure class="recette__encart--visuel">
+                    <img class="recette__encart--img" src="../images/asperges.jpg"
+                        alt="assiette rectangulaire avec 5 asperges alignées dedans et un filet de crème dessus, un couteau et une fourchette croisés posés à droite de l'assiette">
+                    <figcaption class="recette__encart--legend">Asperges blanches, crème à la ciboulette</figcaption>
+                </figure>
+                <span class="recette__encart--theme hide"></span>
+            </article>
+            <!---->
+            <article class="recette__encart">
+                <figure class="recette__encart--visuel">
+                    <img class="recette__encart--img" src="../images/caviar-artichaud.jpg"
+                        alt="un caviar d'artichaud avec une cuiller qui se sert">
+                    <figcaption class="recette__encart--legend">Caviar d'artichaut</figcaption>
+                </figure>
+                <span class="recette__encart--theme hide"></span>
+            </article>
+            <!---->
+            <article class="recette__encart">
+                <figure class="recette__encart--visuel">
+                    <img class="recette__encart--img" src="../images/recettes-enfant.jpg"
+                        alt="un gateau et une tablette de chocolat cassée en 3 morceaux répartis autour du gateau">
+                    <figcaption class="recette__encart--legend">Nos recettes à réaliser avec les enfants pour les
+                        occuper durant le confinement</figcaption>
+                </figure>
+                <span class="recette__encart--theme hide"></span>
+            </article>
         </section>
     </main>
+
+    <!--FOOTER-->
     <footer class="footer">
         <div class="footer__reseaux"></div>
         <div class="footer__application"></div>
